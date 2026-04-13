@@ -10,12 +10,9 @@ const navItems = [
 export function SiteHeader() {
   return (
     <header className="site-header">
-      <Link href="/" className="brand">
-        <span className="brand-mark">LW</span>
-        <span>
-          <strong>Lucas Winter</strong>
-          <small>Ciência de Dados</small>
-        </span>
+      <Link href="/" className="brand" aria-label="Voltar para a home">
+        <span className="brand-wordmark">Read</span>
+        <span className="brand-tagline">um blog minimalista sobre ciencia de dados e legibilidade</span>
       </Link>
 
       <nav className="site-nav" aria-label="Principal">
